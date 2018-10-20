@@ -12,7 +12,9 @@ window.onload = function () {
   http.open("GET", "./data/tweets.json", true);
   http.send();
 
+
   // jquery method
+
   $.get("./data/tweets.json", function (data) {
     console.log(data);
   });

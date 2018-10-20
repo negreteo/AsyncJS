@@ -12,6 +12,7 @@ window.onload = function () {
     console.log(videos);
   });
 
+
   // ES6 way
 
   function get(url) {

@@ -1,6 +1,6 @@
 window.onload = function () {
 
-  // Synchronous example
+  // synchronous example
 
   function callback(val) {
     console.log(val);
@@ -17,7 +17,7 @@ window.onload = function () {
   console.log("done");
 
 
-  // Asynchronous example using callback
+  // asynchronous example using callback
 
   function cb(data) {
     console.log(data);
@@ -29,7 +29,7 @@ window.onload = function () {
   console.log("test");
 
 
-  // Multiple callbacks
+  // multiple callbacks
 
   function handleError(jqXHR, textStatus, error) {
     console.log(error);
